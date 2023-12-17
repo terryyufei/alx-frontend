@@ -381,6 +381,7 @@ template {
     --section-body-padding: 0 0 3rem;
     --section-footer-padding: 3rem 0 0;
     --section-footer-align: center;
+     --section-tagline-margin: 0;
     --footer-padding: 5rem 0 1rem;
     /* navbar */
     --nav-item-font-family: var(--font-family-title);
@@ -389,9 +390,7 @@ template {
     --nav-item-letter-spacing: 0.04rem;
     --nav-item-display: inline-block;
     --nav-item-margin:  0 0  3rem 0;
-    --nav-item-link-hover: var(--color-primary);
-    /* Grid styling */
-    --section-tagline-margin: 0;
+    --nav-item-link-hover: var(--color-primary);      
 }
 
 
@@ -524,7 +523,7 @@ a:active {
 }
 
 /* GRID STYLING */
-ul.row {
+ul .row {
   margin: 0;
   padding: 0;
   list-style: none;
