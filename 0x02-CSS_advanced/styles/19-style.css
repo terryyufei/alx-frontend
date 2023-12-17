@@ -506,8 +506,7 @@ a:active {
     font-size: var(--font-size-xx-large);
     font-weight: var(--font-weight-bold);
     margin: var(--section-title-margin);
-    color: var(--section-title-color);
-    margin: var(--section-tagline-margin);
+    color: var(--section-title-color);    
 }
 
 .section-tagline {
@@ -515,6 +514,7 @@ a:active {
     font-family: var(--font-family-title);
     text-transform: var(--section-tagline-transform);
     font-weight: var(--font-weight-bold);
+    margin: var(--section-tagline-margin);
 }
 
 .container {
