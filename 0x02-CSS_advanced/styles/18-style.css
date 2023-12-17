@@ -382,6 +382,7 @@ template {
     --section-footer-padding: 3rem 0 0;
     --section-footer-align: center;
     --footer-padding: 5rem 0 1rem;
+    /* navbar */
     --nav-item-font-family: var(--font-family-title);
     --nav-item-font-weight: var(--font-weight-bold);
     --nav-item-font-size: var(--font-size-medium);
@@ -459,12 +460,12 @@ a:active {
 }
 
 .nav .nav-item {
-  font-family: var(nav-item-font-family);
-  font-weight: var(nav-item-font-weight);
-  font-size: var(nav-item-font-size);
+  font-family: var(--nav-item-font-family);
+  font-weight: var(--nav-item-font-weight);
+  font-size: var(--nav-item-font-size);
   letter-spacing: var(--nav-item-letter-spacing);
-  display: var(nav-item-display);
-  margin: var(nav-item-margin);
+  display: var(--nav-item-display);
+  margin: var(--nav-item-margin);
 }
 
 .nav .nav-link {
@@ -473,7 +474,7 @@ a:active {
 }
 
 .nav .nav-link:hover {
-  color: var(nav-item-link-hover);
+  color: var(--nav-item-link-hover);
 }
 
 /* SECTION SECTION  */
