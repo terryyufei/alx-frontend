@@ -542,11 +542,6 @@ ul.row {
   padding: 0.5rem;
 }
 
-/* FOOTER  */
-.footer {
-  padding: var(--footer-padding);
-}
-
 .footer-copyright {
   margin: 0;
   font-size: var(--font-size-small);
@@ -556,3 +551,10 @@ ul.row {
 .footer  ul {
   text-align: right;
 }
+
+/* FOOTER  */
+.footer {
+  padding: var(--footer-padding);
+}
+
+
