@@ -659,14 +659,14 @@ ul.row {
   overflow: hidden;
 }
 
-.card-work .card-image {
+.card-work .card-image img {
   height: 30rem;
   width: 100%;
   object-fit: cover;
   vertical-align: bottom;
 }
 
-.card-work .card-inner img {
+.card-work .card-inner {
   position: absolute;
   top: -0.1rem;
   left: -0.1rem;
